@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.lemurianstudios.com/services/website-design-wichita-ks#service",
+      "name": "Website design in Wichita, KS",
+      "serviceType": "Web design",
+      "url": "https://www.lemurianstudios.com/services/website-design-wichita-ks",
+      "description": "Need a website designer in Wichita? Custom websites, branding and 3D animation for businesses across the Wichita metro.",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://www.lemurianstudios.com/#organization",
+        "name": "Lemurian Studios",
+        "legalName": "Auxelerate LLC",
+        "url": "https://www.lemurianstudios.com",
+        "email": "sam@lemurianstudios.com"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Wichita, Kansas",
+          "sameAs": "https://www.wikidata.org/wiki/Q49266"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Sedgwick County, Kansas"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Butler County, Kansas"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Harvey County, Kansas"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Sumner County, Kansas"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services for Wichita businesses",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Website design",
+              "url": "https://www.lemurianstudios.com/services/web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Small business web design",
+              "url": "https://www.lemurianstudios.com/services/small-business-web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Brand identity design",
+              "url": "https://www.lemurianstudios.com/services/brand-identity"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "3D design and animation",
+              "url": "https://www.lemurianstudios.com/services/3d-design"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.lemurianstudios.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Web design",
+          "item": "https://www.lemurianstudios.com/services/web-design"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Web design in Kansas",
+          "item": "https://www.lemurianstudios.com/services/web-design-kansas"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Wichita, KS",
+          "item": "https://www.lemurianstudios.com/services/website-design-wichita-ks"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can you build a capabilities page for a manufacturing supplier?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sure. We lay out processes, equipment, certifications and industries served in a format buyers can scan, with a quote form that collects the details you need."
+          }
+        }
+      ]
+    }
+  ]
+}
